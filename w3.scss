@@ -221,7 +221,7 @@ $font_600 : 600;
     }
 }
 
-// 749033920119
+
 
 
 
@@ -404,155 +404,159 @@ $font_600 : 600;
 // Setting for different device screens
 
 
+
 @media screen and (max-width:1300px) {
 
-   .tutorialcontainer .element .content1 .links{margin: 2rem 13.5rem 0rem; }
-}
-
-
-@media screen and (max-width:1220px) {
-    html{font-size: 60%;}
-
-   .hide1{display: none;}
-
-   .tutorialcontainer .element .content1 .links{ margin: 2rem 12rem 0rem;}
-}
-
-
-@media screen and (max-width:1150px) {
-  
-   .hide2{display: none;}
-
-   .tutorialcontainer .element .content1 .links{     
-        margin: 2rem 5rem 0rem;  
-        
-        div{margin: 1.3rem 11.9rem;}
-   }
-}
-
-@media screen and (max-width:1075px) {
-  
-   .hide3{visibility: hidden;}
-
-}
-
-@media screen and (max-width:1050px) {
-    
-    html{font-size: 58%;}
-
-    .hide4{display: none;}
-
-    .tutorialcontainer{
-        flex-direction: column;
-
-        .element {
-            
-            .content1 .links{     
-                margin: 2rem 31rem 0rem;  
-                
-                div{
-                    margin: 1.3rem 9.5rem;
-                }
-            }
-
-            .content2{margin: 0 3rem 8rem;}
-        }
-    }
-
-    .moretutorial .bigboxes .bigtemplate{flex: 80%;}
-
-    .smallboxes .smalltemplate{flex: 42%;}
-
-    .mediumboxes .mediumtemplate {flex: 90%;}
-}
-
-
-
-@media screen and (max-width:960px) {
-   
-   
-    .tutorialcontainer .element .content1 .links{     
-            margin: 2rem 25rem 0rem;  
-            
-            div{margin: 1.3rem 12.5rem;}
-    }
-
-    
-}
- 
-
-@media screen and (max-width:900px) {
-
-    .tutorialcontainer .element .content1 .links{     
-        margin: 2rem 22.5rem 0rem;  
-        
-        div{margin: 1.3rem 12rem;}
-    }
-}
-
-
-
-@media screen and (max-width:850px) {
-
-    .hide5span{display: none;}
-    .hide5div{visibility: hidden;}
-
-    .tutorialcontainer .element .content1 .links{     
-        margin: 2rem 20rem 0rem;  
-        
-        div{margin: 1.3rem 12rem;}
-    }
-}
-
-
-
-@media screen and (max-width:800px) {
-
-    .tutorialcontainer .element .content1 {
-
-        h1{font-size: 7rem;}
-
-        .links{     
-                margin: 2rem 15rem 0rem;  
-                div{margin: 1.3rem 14rem;}
-            }
-        }
-
-}
-
-@media screen and (max-width:740px) {
-
-    .tutorialcontainer .element .content1 .links{     
-        margin: 2rem 10rem 0rem;  
-         
-        div{margin: 1.3rem 14rem;}
-    }
-}
-
- @media screen and (max-width:650px) {
-
-    .tutorialcontainer .element .content1 .links{     
-        margin: 2rem 0rem 0rem;  
-         
-        div{margin: 1.3rem 20rem;}
-    }
-
-    .tutorialcontainer .tutelement2hide{display: none;}  
+    .tutorialcontainer .element .content1 .links{margin: 2rem 13.5rem 0rem; }
  }
-
-
-
-@media screen and (max-width:600px) {
-
+ 
+ 
+ @media screen and (max-width:1220px) {
+     html{font-size: 60%;}
+ 
+    .hide1{display: none;}
+ 
+    .tutorialcontainer .element .content1 .links{ margin: 2rem 12rem 0rem;}
+ }
+ 
+ 
+ @media screen and (max-width:1150px) {
+   
+    .hide2{display: none;}
+ 
     .tutorialcontainer .element .content1 .links{     
-        margin: 2rem 0rem 0rem;  
+         margin: 2rem 5rem 0rem;  
          
-        div{margin: 1.3rem 18rem;}
+         div{margin: 1.3rem 11.9rem;}
     }
-}
-
-
-
-@media screen and (max-width:550px){
-    html{font-size: 50%;}
-}
+ }
+ 
+ @media screen and (max-width:1075px) {
+   
+    .hide3{visibility: hidden;}
+ 
+ }
+ 
+ @media screen and (max-width:1050px) {
+     
+     html{font-size: 58%;}
+ 
+     .hide4{display: none;}
+ 
+     .tutorialcontainer{
+         flex-direction: column;
+ 
+         .element {
+             
+             .content1 .links{     
+                 margin: 2rem 31rem 0rem;  
+                 
+                 div{
+                     margin: 1.3rem 9.5rem;
+                 }
+             }
+ 
+             .content2{margin: 0 3rem 8rem;}
+         }
+     }
+ 
+     .moretutorial .bigboxes .bigtemplate{flex: 80%;}
+ 
+     .smallboxes .smalltemplate{flex: 42%;}
+ 
+     .mediumboxes .mediumtemplate {flex: 90%;}
+ }
+ 
+ 
+ 
+ @media screen and (max-width:960px) {
+    
+    
+     .tutorialcontainer .element .content1 .links{     
+             margin: 2rem 25rem 0rem;  
+             
+             div{margin: 1.3rem 12.5rem;}
+     }
+ 
+     
+ }
+  
+ 
+ @media screen and (max-width:900px) {
+ 
+     .tutorialcontainer .element .content1 .links{     
+         margin: 2rem 22.5rem 0rem;  
+         
+         div{margin: 1.3rem 12rem;}
+     }
+ }
+ 
+ 
+ 
+ @media screen and (max-width:850px) {
+ 
+     .hide5span{display: none;}
+     .hide5div{visibility: hidden;}
+ 
+     .tutorialcontainer .element .content1 .links{     
+         margin: 2rem 20rem 0rem;  
+         
+         div{margin: 1.3rem 12rem;}
+     }
+ }
+ 
+ 
+ 
+ @media screen and (max-width:800px) {
+ 
+     .tutorialcontainer .element .content1 {
+ 
+         h1{font-size: 7rem;}
+ 
+         .links{     
+                 margin: 2rem 15rem 0rem;  
+                 div{margin: 1.3rem 14rem;}
+             }
+         }
+ 
+ }
+ 
+ @media screen and (max-width:740px) {
+ 
+     .tutorialcontainer .element .content1 .links{     
+         margin: 2rem 10rem 0rem;  
+          
+         div{margin: 1.3rem 14rem;}
+     }
+ 
+     .smallboxes .smalltemplate{flex: 90%;margin: 2rem 5rem;}
+ }
+ 
+  @media screen and (max-width:650px) {
+ 
+     .tutorialcontainer .element .content1 .links{     
+         margin: 2rem 0rem 0rem;  
+          
+         div{margin: 1.3rem 20rem;}
+     }
+ 
+     .tutorialcontainer .tutelement2hide{display: none;}  
+ 
+  }
+ 
+ 
+ 
+ @media screen and (max-width:600px) {
+ 
+     .tutorialcontainer .element .content1 .links{     
+         margin: 2rem 0rem 0rem;  
+          
+         div{margin: 1.3rem 18rem;}
+     }
+ }
+ 
+ 
+ 
+ @media screen and (max-width:550px){
+     html{font-size: 50%;}
+ }

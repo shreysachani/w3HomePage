@@ -500,6 +500,12 @@ body {
   .tutorialcontainer .element .content1 .links div {
     margin: 1.3rem 14rem;
   }
+  .smallboxes .smalltemplate {
+    -webkit-box-flex: 90%;
+        -ms-flex: 90%;
+            flex: 90%;
+    margin: 2rem 5rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
