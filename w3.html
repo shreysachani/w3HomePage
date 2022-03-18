@@ -5,101 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W3Schools Online Web Tutorials</title>
-    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="w3scss.css">
     <script src="https://kit.fontawesome.com/4bbfb295ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="flex-container1">
 
-        <div class="navimg">
-            <img src="w3.jpg" alt="W3 image" width="50px" height="50px">       
-        </div>    
-        
+<!--  ...........................Navigation bar.....................................  -->
+    <div class="navbar">
 
-        <div class="item">
-            <div>Tutorials </div>
-            <div><i class="fas fa-sort-down downarrow" style="user-select: auto;"></i></div>
-        </div>
-        
+        <div class="navbaritem_1">
 
-        <div class="item">
-            <div> References </div>
-            <div><i class="fas fa-sort-down downarrow" style="user-select: auto;"></i></div>
-        </div>
+            <div class="navimg">
+                <img src="/w3.media/w3.jpg" alt="W3 image" width="50px" height="45px">       
+            </div> 
 
+            <div class="items">
+                <div>Tutorials </div>
+                <div><i class="fas fa-sort-down downarrow" style="user-select: auto;"></i></div>
+            </div>
 
-        <div class="item">
-            <div> Exercises</div>
-            <div><i class="fas fa-sort-down downarrow" style="user-select: auto;"></i></div>
-        </div>
+            <div class="items hide5div">
+                <div> References </div>
+                <div><i class="fas fa-sort-down downarrow" style="user-select: auto;"></i></div>
+            </div>
+            
+            <div class="items hide5div">
+                <div> Exercises</div>
+                <div><i class="fas fa-sort-down downarrow" style="user-select: auto;"></i></div>
+            </div>
 
+            <div class="items hide3">Videos <span style="color:black" class="border hide1">NEW</span> </div>
 
-        <div class="item">Videos <span class="border">NEW</span> </div>
-
-        <div class="iconhover">
-            <i class="fas fa-adjust rotate"></i>
         </div>
 
-        <div class="iconhover">
-            <i class="fas fa-globe-americas"></i>
+        <div class="navbaritem_2">
+
+            <div class="icon">
+                <i class="fas fa-adjust rotate"></i>
+            </div>
+    
+            <div class="icon">
+                <i class="fas fa-globe-americas"></i>
+            </div>
+    
+            <div class="icon">
+                <i class="fas fa-search"></i>
+            </div>
+    
+            <span class="rounded pinkback hide5span" >Website <span style="color:black" class="border hide2">NEW</span> </span>
+    
+            <span class="rounded whiteback hide4" > Paid Courses</span>
+    
+            <div class="rounded greenback" style="padding: 1.5rem 4.5rem; color:white;"> Log in </div>
+
         </div>
-
-        <div class="iconhover">
-            <i class="fas fa-search"></i>
-        </div>
-
-        <div class="pinkback">Website <span class="border">NEW</span> </div>
-
-        <div class="whiteback"> Paid Courses</div>
-
-        <div class="greenback"> Log in </div>
 
     </div>
 
 
-
-    <div class="main">
+<!-- Learn to code element on w3 homepage -->
+    <div class="learntocode">
         <h1 class="mainh1"> <b> Learn to Code </b></h1>
         <p class="mainp"> <b> With the world's largest web developer site </b></p>
         <br><br>
         <div class="searchbar" > 
-            <span class="searcharea">Search our tutorials, e.g. HTML</span>
+            <span class="searcharea"><input type="text" placeholder="Search our tutorials, e.g. HTML"> </span>
             <span class="searchicon"> <i class="fas fa-search"> </i> </span>
         </div>
         <br><br><br>
-        <a href="http://" class="mainlink" >Not sure where to begin?</a>
+        <a href="" class="mainlink" >Not sure where to begin?</a>
         
     </div>
 
-    <div style="background-color: #282A35;height: 100px;"></div>
 
- <div class="tutorialcontainer" style="background-color: #D9EEE1;">
+<!-- Start of individual elements  -->
+
+  
+    <div class="tutorialcontainer" style="background-color: #D9EEE1;">
         
-    <div class="element">
-        <div class="content1">
-            <h1>HTML</h1>
-            <p>The language for building web pages</p>
-            <div class="links">
-                <div style="background-color: #04AA6D;;"> Learn CSS</div>
-                <div class="tutorial" style="background-color: #FFF4A3;color: black;">Video Tutorial</div>
-                <div style="background-color: #282A35;">CSS Reference</div>
+    <!-- Here divided into elements    content1 and content2  -->
+        <div class="element">
+        <!-- content1 contains the header , description and links     That is left side of the element -->
+            <div class="content1">
+                <h1>HTML</h1>
+                <p>The language for building web pages</p>
+                <div class="links">
+                    <div style="background-color: #04AA6D;;"> Learn HTML</div>
+                    <div class="tutorial" style="background-color: #FFF4A3;color: black;">Video Tutorial</div>
+                    <div style="background-color: #282A35;">HTML Reference</div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="element">
-        <div class="content2">
-            <h2>CSS Example:</h2>
-            <div class="img">
-                <img src="html.png" alt="w3" height="250px" width="100%">
-            </div>
-            <div class="tryityourself">
-                <div>Try it Yourself</div>
-            </div>
-        </div>
-    </div>
 
-</div>
+        <!-- Content 2 contains the image and Try it yourself -->
+        <span class="element tutelement2hide">
+            <div class="content2">
+                <h2>HTML Example:</h2>
+                <div class="img">
+                    <img src="/w3.media/html.png" alt="w3" height="250px" width="100%">
+                </div>
+                <div class="tryityourself">
+                    <div>Try it Yourself</div>
+                </div>
+            </div>
+        </span>
+
+    </div>
 
 
     <div class="tutorialcontainer" style="background-color: #FFF4A3;">
@@ -115,17 +127,17 @@
             </div>
         </div>
 
-        <div class="element">
+        <span class="element tutelement2hide">
             <div class="content2">
                 <h2>CSS Example:</h2>
                 <div class="img">
-                    <img src="css.png" alt="w3" height="200px" width="100%">
+                    <img src="/w3.media/css.png" alt="w3" height="200px" width="100%">
                 </div>
                 <div class="tryityourself">
                     <div>Try it Yourself</div>
                 </div>
             </div>
-        </div>
+        </span>
 
     </div>
 
@@ -143,17 +155,17 @@
             </div>
         </div>
 
-        <div class="element">
+        <span class="element tutelement2hide">
             <div class="content2">
                 <h2>JavaScript Example:</h2>
                 <div class="img">
-                    <img src="javascript.png" alt="w3" height="250px" width="100%">
+                    <img src="/w3.media/javascript.png" alt="w3" height="250px" width="100%">
                 </div>
                 <div class="tryityourself">
                     <div>Try it Yourself</div>
                 </div>
             </div>
-        </div>
+        </span>
 
     </div>
 
@@ -172,17 +184,17 @@
             </div>
         </div>
 
-        <div class="element">
+        <span class="element tutelement2hide">
             <div class="content2">
                 <h2>Python Example:</h2>
                 <div class="img">
-                    <img src="python.png" alt="w3" height="200px" width="100%">
+                    <img src="/w3.media/python.png" alt="w3" height="200px" width="100%">
                 </div>
                 <div class="tryityourself">
                     <div>Try it Yourself</div>
                 </div>
             </div>
-        </div>
+        </span>
 
     </div>
 
@@ -201,24 +213,25 @@
             </div>
         </div>
 
-        <div class="element">
+        <span class="element tutelement2hide">
             <div class="content2">
                 <h2>SQL Example:</h2>
                 <div class="img">
-                    <img src="sql.png" alt="w3" height="200px" width="100%">
+                    <img src="/w3.media/sql.png" alt="w3" height="200px" width="100%">
                 </div>
                 <div class="tryityourself">
                     <div>Try it Yourself</div>
                 </div>
             </div>
-        </div>
+        </span>
 
     </div>
 
 
+
     <div class="moretutorialcontainer">
         
-        <div class="bigboxes">
+        <div class="bigboxes">    <!-- Start of big boxes that is two elements in a row -->
             
             <div class="bigtemplate" style="background-color: #FFC0C7;">
                 <h2>PHP</h2>
@@ -268,109 +281,111 @@
                 </div>
             </div>
 
-        </div>
-
+        </div>        <!-- End of big boxes that is two elements of big size in a row -->
+        
+    </div> 
+        
         <div class="smallboxes">
             
-                <div class="smalltemplate" style="background-color: #FFC0C7;">
-                    <h2>C#</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFF4A3;">
-                    <h2>R</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #F3ECEA;">
-                    <h2>Kotlin</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #D9EEE1;">
-                    <h2>MySQL</h2>
-                </div>
-                
+            <div class="smalltemplate" style="background-color: #FFC0C7;">
+                <h2>C#</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFF4A3;">
+                <h2>R</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #F3ECEA;">
+                <h2>Kotlin</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #D9EEE1;">
+                <h2>MySQL</h2>
+            </div>
+            
 
-                <div class="smalltemplate" style="background-color: #96D4D4;">
-                    <h2>Node.js</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFC0C7;">
-                    <h2>React</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFF4A3;">
-                    <h2>JSON</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #F3ECEA;">
-                    <h2>AngularJS</h2>
-                </div>
-                
+            <div class="smalltemplate" style="background-color: #96D4D4;">
+                <h2>Node.js</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFC0C7;">
+                <h2>React</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFF4A3;">
+                <h2>JSON</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #F3ECEA;">
+                <h2>AngularJS</h2>
+            </div>
 
-                <div class="smalltemplate" style="background-color: #D9EEE1;">
-                    <h2>W3.JS</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #96D4D4;">
-                    <h2>XML</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFC0C7;">
-                    <h2>Sass</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFF4A3;">
-                    <h2>Icons</h2>
-                </div>
-
+            <div class="smalltemplate" style="background-color: #D9EEE1;">
+                <h2>W3.JS</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #96D4D4;">
+                <h2>XML</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFC0C7;">
+                <h2>Sass</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFF4A3;">
+                <h2>Icons</h2>
+            </div>
 
 
-                <div class="smalltemplate" style="background-color: #F3ECEA;">
-                    <h2>RWD</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #D9EEE1;">
-                    <h2>Graphics</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #96D4D4;">
-                    <h2>SVG</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFC0C7;">
-                    <h2>Canvas</h2>
-                </div>
+
+            <div class="smalltemplate" style="background-color: #F3ECEA;">
+                <h2>RWD</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #D9EEE1;">
+                <h2>Graphics</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #96D4D4;">
+                <h2>SVG</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFC0C7;">
+                <h2>Canvas</h2>
+            </div>
 
 
-                <div class="smalltemplate" style="background-color: #FFF4A3;">
-                    <h2>Rasberry Pi</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #F3ECEA;">
-                    <h2>Cyber Security</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #D9EEE1;">
-                    <h2>Colors</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #96D4D4;">
-                    <h2>Git</h2>
-                </div>
+            <div class="smalltemplate" style="background-color: #FFF4A3;">
+                <h2>Rasberry Pi</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #F3ECEA;">
+                <h2>Cyber Security</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #D9EEE1;">
+                <h2>Colors</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #96D4D4;">
+                <h2>Git</h2>
+            </div>
 
 
-                <div class="smalltemplate" style="background-color: #E7E9EB;">
-                    <h2>Matplotlib</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFF4A3;">
-                    <h2>NumPy</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #F3ECEA;">
-                    <h2>Pandas</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #D9EEE1;">
-                    <h2>SciPy</h2>
-                </div>
+            <div class="smalltemplate" style="background-color: #E7E9EB;">
+                <h2>Matplotlib</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFF4A3;">
+                <h2>NumPy</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #F3ECEA;">
+                <h2>Pandas</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #D9EEE1;">
+                <h2>SciPy</h2>
+            </div>
 
 
-                <div class="smalltemplate" style="background-color: #D9EEE1;">
-                    <h2>ASP</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #E7E9EB;">
-                    <h2>Accessibility</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #FFF4A3;">
-                    <h2>AppML</h2>
-                </div>
-                <div class="smalltemplate" style="background-color: #F3ECEA;">
-                    <h2>Go</h2>
-                </div>
+            <div class="smalltemplate" style="background-color: #D9EEE1;">
+                <h2>ASP</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #E7E9EB;">
+                <h2>Accessibility</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #FFF4A3;">
+                <h2>AppML</h2>
+            </div>
+            <div class="smalltemplate" style="background-color: #F3ECEA;">
+                <h2>Go</h2>
+            </div>
             
         </div>
+
 
         <div class="mediumboxes">
             
@@ -394,41 +409,5 @@
             </div>
             
         </div>
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

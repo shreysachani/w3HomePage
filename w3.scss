@@ -1,0 +1,558 @@
+html{
+    font-size: 62.5%;        //   1rem = 10px = 62.5%  
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+    overflow-x: hidden;
+    margin: 0px;
+    font-weight: 500;
+    
+}
+
+
+*{
+box-sizing: border-box;
+}
+
+
+
+$dark-gray : #282A35;
+$green-color : #04AA6D;
+$font_600 : 600;
+
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin span_border {
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: .5rem 1rem;
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+//   Code for navigation bar
+
+.navbar{
+
+    @include flex;
+    background-color: white;
+    align-items: center;
+
+//Navbaritem_1  are  Tutorials ,References, Exercises and Videos and are set to flex start to maintain left position in navbar
+        .navbaritem_1{
+            
+            @include flex;
+
+                .navimg{
+                    padding: 1.5rem 1.8rem;
+
+                    &:hover{
+                        cursor: pointer
+                    }
+                }
+
+                .items{
+                    @include flex;
+                    font-size: 1.75rem;
+                    padding: 2.7rem 1.8rem;
+                    
+                    span.border{
+                        @include span_border;
+                    }
+
+                    .downarrow{
+                        padding-left: .5rem;
+                    }
+                    
+                    &:hover{
+                        background-color: $green-color;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+
+        }
+        
+
+// nabaritem_2 are the icons , website , paid course and login and are set to flex-end to maintain right position in navbar
+        .navbaritem_2{
+            
+            @include flex;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+// Icons are : - toggle , globe and search
+                .icon{
+                    font-size: 1.8rem;
+                    padding: 3rem 1rem;
+                    
+                
+// applied rotate 180 to toggle who has class '.rotate'  deg just to match the toggle used in w3 
+                    .rotate{
+                        transform: rotate(180deg);
+                    }
+                    
+                    &:hover{
+                        color: $green-color;
+                        cursor: pointer;
+                    }
+                }
+
+// rounded are website , paid course and login elements which have rounded effect on navbar
+                .rounded{
+                    border-radius: 4rem;
+                    font-size: 1.7rem;
+                    padding: 1.4rem 1.8rem;
+                    margin: 1.5rem .7rem;
+                    
+                    
+                    span.border{
+                        @include span_border;
+                    }
+
+                    &:hover {
+                        background-color: $green-color;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+
+        }
+      
+}
+
+.pinkback{
+    background-color: pink;
+}
+
+.greenback{
+    background-color: $green-color;   
+}
+
+
+
+
+
+
+
+//  Below is the css code for the Learn TO Code element on the home page
+
+.learntocode{
+
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    background-color: $dark-gray;
+    text-align: center;
+    
+
+    h1{
+        font-size: 7rem;
+        color: white;
+        margin-bottom: 3.5rem;
+    }
+
+    p{
+        font-size: 2.3rem;
+        color: #FFC0C7;
+    }
+
+    .searchbar{
+        max-width: 50rem;
+        margin: auto;
+        @include flex;
+        justify-content: center;
+    } 
+    
+    .searcharea{
+        // background-color: white;
+        // border-radius: 4rem 0rem 0rem 4rem;
+        // text-align: left;
+        // margin-right: 0rem; 
+        // padding: 1.5rem 15rem 1.5rem 3rem;
+        // color: gray;
+        // font-size: 1.5rem;
+        // font-weight: 500;
+        // letter-spacing: .1em;
+        
+        input{
+            outline: 0;
+            border: 0;
+            background-color: white;
+            border-radius: 4rem 0rem 0rem 4rem;
+            padding: 1.5rem 18rem 1.5rem 3rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: gray;
+        }
+    }
+    
+
+    .searchicon{
+        background-color: $green-color;
+        border-radius: 0rem 4rem 4rem 0rem;
+        margin-left: 0rem;
+        padding: 1.5rem 4rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .mainlink{
+        color: white;
+        font-size: 2.3rem;
+        font-weight: bold;
+
+        &:hover{
+            color: $green-color ;
+        }
+    }
+}
+
+// 749033920119
+
+
+
+
+
+
+
+//   Below code contains for the individual elements for each language
+
+.tutorialcontainer{
+    @include flex;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    .element{
+
+        margin: 0;
+        flex: 49.99999%;
+        
+
+//  Left side of the element That is header , description and links  
+        .content1{
+            text-align: center;
+            margin: 8rem 0;
+
+            h1{
+                font-size: 9rem;
+                margin: 2rem 0 0 0;
+            }
+
+            p{
+                font-size: 1.8rem;
+                font-weight: $font_600;
+                margin: 4rem;
+            }
+
+            .links{
+                display: flex;
+                flex-direction: column;
+                margin: 2rem 15rem 0rem;
+
+                div{
+                    color: white;
+                    font-size: 1.5rem;
+                    margin: 1.3rem 6.5rem;
+                    padding: 1.5rem 3.5rem;
+                    border-radius: 4rem;
+                    font-weight: $font_600;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+// Right side of the element    That is image and tryit yourself
+        .content2{
+            background-color: #E7E9EB;
+            margin: 8rem 2rem;
+            padding-top: 2rem;
+            padding-bottom: 1rem ;
+            // box-shadow: 0 .2rem .5rem 0 rgb(0 0 0 / 16%), 0 .2rem 1rem 0 rgb(0 0 0 / 12%) ;
+
+            h2{
+                margin: 2.5rem;
+                font-size: 2.5rem;
+            }
+
+            .img{
+                margin: 0 2.5rem;  
+            }
+
+            .tryityourself{
+                background-color: $green-color;
+                margin: 2.5rem;
+                width: 20rem;
+                text-align: center;
+                border-radius: 4rem;
+                padding: 1.5rem;
+                color: white;
+                font-weight: $font_600;
+                font-size: 1.5rem;
+            }
+        
+        }
+
+    }
+}
+
+
+
+
+//   For the extra tuorials with different elements in a row
+
+.moretutorialcontainer{
+    @include flex;
+    flex-wrap: wrap;
+    background-color: $dark-gray;
+
+
+//     For two templates in a row with bbigger height  ..........
+    .bigboxes{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4rem 0;
+
+
+
+
+        .bigtemplate{
+            flex: 40%;
+            text-align: center;
+            margin: 2.5rem 5rem;
+            border-radius: 1rem;
+            font-size: 2rem ;
+            
+            h2{
+                font-size: 4.5rem;
+            }
+            
+            .templatelink{
+                border-radius: 4rem;
+                width: 20rem;
+                margin: 4.8rem auto 4.8rem;
+                padding: 1.2rem;
+                background-color: $dark-gray;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+      
+
+
+
+
+// //     For four templates in a row....
+
+.smallboxes{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $dark-gray;
+}
+
+.smallboxes {
+    .smalltemplate{
+        flex: 20%;
+        margin: 2rem 1.8rem;
+        height: 12rem;
+        text-align: center;
+        font-size: 1.5rem;
+        // margin: 2.5rem;
+        padding: 2.8rem 0 1rem 0;
+        border-radius: 1rem;
+    }
+}
+
+
+//   For 2 templates in a row of medium sizes
+
+.mediumboxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: $dark-gray;
+
+    .mediumtemplate{
+        flex: 40%;
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 11rem;
+        margin: 2rem 5rem;
+        border-radius: 1rem ;
+    }
+
+}
+
+
+
+// Setting for different device screens
+
+
+@media screen and (max-width:1300px) {
+
+   .tutorialcontainer .element .content1 .links{margin: 2rem 13.5rem 0rem; }
+}
+
+
+@media screen and (max-width:1220px) {
+    html{font-size: 60%;}
+
+   .hide1{display: none;}
+
+   .tutorialcontainer .element .content1 .links{ margin: 2rem 12rem 0rem;}
+}
+
+
+@media screen and (max-width:1150px) {
+  
+   .hide2{display: none;}
+
+   .tutorialcontainer .element .content1 .links{     
+        margin: 2rem 5rem 0rem;  
+        
+        div{margin: 1.3rem 11.9rem;}
+   }
+}
+
+@media screen and (max-width:1075px) {
+  
+   .hide3{visibility: hidden;}
+
+}
+
+@media screen and (max-width:1050px) {
+    
+    html{font-size: 58%;}
+
+    .hide4{display: none;}
+
+    .tutorialcontainer{
+        flex-direction: column;
+
+        .element {
+            
+            .content1 .links{     
+                margin: 2rem 31rem 0rem;  
+                
+                div{
+                    margin: 1.3rem 9.5rem;
+                }
+            }
+
+            .content2{margin: 0 3rem 8rem;}
+        }
+    }
+
+    .moretutorial .bigboxes .bigtemplate{flex: 80%;}
+
+    .smallboxes .smalltemplate{flex: 42%;}
+
+    .mediumboxes .mediumtemplate {flex: 90%;}
+}
+
+
+
+@media screen and (max-width:960px) {
+   
+   
+    .tutorialcontainer .element .content1 .links{     
+            margin: 2rem 25rem 0rem;  
+            
+            div{margin: 1.3rem 12.5rem;}
+    }
+
+    
+}
+ 
+
+@media screen and (max-width:900px) {
+
+    .tutorialcontainer .element .content1 .links{     
+        margin: 2rem 22.5rem 0rem;  
+        
+        div{margin: 1.3rem 12rem;}
+    }
+}
+
+
+
+@media screen and (max-width:850px) {
+
+    .hide5span{display: none;}
+    .hide5div{visibility: hidden;}
+
+    .tutorialcontainer .element .content1 .links{     
+        margin: 2rem 20rem 0rem;  
+        
+        div{margin: 1.3rem 12rem;}
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .tutorialcontainer .element .content1 {
+
+        h1{font-size: 7rem;}
+
+        .links{     
+                margin: 2rem 15rem 0rem;  
+                div{margin: 1.3rem 14rem;}
+            }
+        }
+
+}
+
+@media screen and (max-width:740px) {
+
+    .tutorialcontainer .element .content1 .links{     
+        margin: 2rem 10rem 0rem;  
+         
+        div{margin: 1.3rem 14rem;}
+    }
+}
+
+ @media screen and (max-width:650px) {
+
+    .tutorialcontainer .element .content1 .links{     
+        margin: 2rem 0rem 0rem;  
+         
+        div{margin: 1.3rem 20rem;}
+    }
+
+    .tutorialcontainer .tutelement2hide{display: none;}  
+ }
+
+
+
+@media screen and (max-width:600px) {
+
+    .tutorialcontainer .element .content1 .links{     
+        margin: 2rem 0rem 0rem;  
+         
+        div{margin: 1.3rem 18rem;}
+    }
+}
+
+
+
+@media screen and (max-width:550px){
+    html{font-size: 50%;}
+}
