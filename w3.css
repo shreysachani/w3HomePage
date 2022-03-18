@@ -1,531 +1,531 @@
 html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-    margin: 0px;
-    font-weight: 500;
-  }
-  
-  * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  
-  .navbar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    background-color: white;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .navbar .navbaritem_1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  
-  .navbar .navbaritem_1 .navimg {
-    padding: 1.5rem 1.8rem;
-  }
-  
-  .navbar .navbaritem_1 .navimg:hover {
-    cursor: pointer;
-  }
-  
-  .navbar .navbaritem_1 .items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    font-size: 1.75rem;
-    padding: 2.7rem 1.8rem;
-  }
-  
-  .navbar .navbaritem_1 .items span.border {
-    border: 1px solid black;
-    border-radius: 3rem;
-    padding: .5rem 1rem;
-    margin-left: .5rem;
-    font-size: 1.2rem;
-    background-color: white;
-  }
-  
-  .navbar .navbaritem_1 .items .downarrow {
-    padding-left: .5rem;
-  }
-  
-  .navbar .navbaritem_1 .items:hover {
-    background-color: #04AA6D;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .navbar .navbaritem_2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .navbar .navbaritem_2 .icon {
-    font-size: 1.8rem;
-    padding: 3rem 1rem;
-  }
-  
-  .navbar .navbaritem_2 .icon .rotate {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  
-  .navbar .navbaritem_2 .icon:hover {
-    color: #04AA6D;
-    cursor: pointer;
-  }
-  
-  .navbar .navbaritem_2 .rounded {
-    border-radius: 4rem;
-    font-size: 1.7rem;
-    padding: 1.4rem 1.8rem;
-    margin: 1.5rem .7rem;
-  }
-  
-  .navbar .navbaritem_2 .rounded span.border {
-    border: 1px solid black;
-    border-radius: 3rem;
-    padding: .5rem 1rem;
-    margin-left: .5rem;
-    font-size: 1.2rem;
-    background-color: white;
-  }
-  
-  .navbar .navbaritem_2 .rounded:hover {
-    background-color: #04AA6D;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .pinkback {
-    background-color: pink;
-  }
-  
-  .greenback {
-    background-color: #04AA6D;
-  }
-  
-  .learntocode {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    background-color: #282A35;
-    text-align: center;
-  }
-  
-  .learntocode h1 {
-    font-size: 7rem;
-    color: white;
-    margin-bottom: 3.5rem;
-  }
-  
-  .learntocode p {
-    font-size: 2.3rem;
-    color: #FFC0C7;
-  }
-  
-  .learntocode .searchbar {
-    max-width: 50rem;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .learntocode .searcharea input {
-    outline: 0;
-    border: 0;
-    background-color: white;
-    border-radius: 4rem 0rem 0rem 4rem;
-    padding: 1.5rem 18rem 1.5rem 3rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: gray;
-  }
-  
-  .learntocode .searchicon {
-    background-color: #04AA6D;
-    border-radius: 0rem 4rem 4rem 0rem;
-    margin-left: 0rem;
-    padding: 1.5rem 4rem;
-    color: white;
-    font-size: 1.5rem;
-  }
-  
-  .learntocode .mainlink {
-    color: white;
-    font-size: 2.3rem;
-    font-weight: bold;
-  }
-  
-  .learntocode .mainlink:hover {
-    color: #04AA6D;
-  }
-  
-  .tutorialcontainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  .tutorialcontainer .element {
-    margin: 0;
-    -webkit-box-flex: 49.99999%;
-        -ms-flex: 49.99999%;
-            flex: 49.99999%;
-  }
-  
-  .tutorialcontainer .element .content1 {
-    text-align: center;
-    margin: 8rem 0;
-  }
-  
-  .tutorialcontainer .element .content1 h1 {
-    font-size: 9rem;
-    margin: 2rem 0 0 0;
-  }
-  
-  .tutorialcontainer .element .content1 p {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin: 4rem;
-  }
-  
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  margin: 0px;
+  font-weight: 500;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbaritem_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar .navbaritem_1 .navimg {
+  padding: 1.5rem 1.8rem;
+}
+
+.navbar .navbaritem_1 .navimg:hover {
+  cursor: pointer;
+}
+
+.navbar .navbaritem_1 .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.75rem;
+  padding: 2.7rem 1.8rem;
+}
+
+.navbar .navbaritem_1 .items span.border {
+  border: 1px solid black;
+  border-radius: 3rem;
+  padding: .5rem 1rem;
+  margin-left: .5rem;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.navbar .navbaritem_1 .items .downarrow {
+  padding-left: .5rem;
+}
+
+.navbar .navbaritem_1 .items:hover {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .navbaritem_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navbar .navbaritem_2 .icon {
+  font-size: 1.8rem;
+  padding: 3rem 1rem;
+}
+
+.navbar .navbaritem_2 .icon .rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navbar .navbaritem_2 .icon:hover {
+  color: #04AA6D;
+  cursor: pointer;
+}
+
+.navbar .navbaritem_2 .rounded {
+  border-radius: 4rem;
+  font-size: 1.7rem;
+  padding: 1.4rem 1.8rem;
+  margin: 1.5rem .7rem;
+}
+
+.navbar .navbaritem_2 .rounded span.border {
+  border: 1px solid black;
+  border-radius: 3rem;
+  padding: .5rem 1rem;
+  margin-left: .5rem;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.navbar .navbaritem_2 .rounded:hover {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+.pinkback {
+  background-color: pink;
+}
+
+.greenback {
+  background-color: #04AA6D;
+}
+
+.learntocode {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-color: #282A35;
+  text-align: center;
+}
+
+.learntocode h1 {
+  font-size: 7rem;
+  color: white;
+  margin-bottom: 3.5rem;
+}
+
+.learntocode p {
+  font-size: 2.3rem;
+  color: #FFC0C7;
+}
+
+.learntocode .searchbar {
+  max-width: 50rem;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.learntocode .searcharea input {
+  outline: 0;
+  border: 0;
+  background-color: white;
+  border-radius: 4rem 0rem 0rem 4rem;
+  padding: 1.5rem 18rem 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.learntocode .searchicon {
+  background-color: #04AA6D;
+  border-radius: 0rem 4rem 4rem 0rem;
+  margin-left: 0rem;
+  padding: 1.5rem 4rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.learntocode .mainlink {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.learntocode .mainlink:hover {
+  color: #04AA6D;
+}
+
+.tutorialcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tutorialcontainer .element {
+  margin: 0;
+  -webkit-box-flex: 49.99999%;
+      -ms-flex: 49.99999%;
+          flex: 49.99999%;
+}
+
+.tutorialcontainer .element .content1 {
+  text-align: center;
+  margin: 8rem 0;
+}
+
+.tutorialcontainer .element .content1 h1 {
+  font-size: 9rem;
+  margin: 2rem 0 0 0;
+}
+
+.tutorialcontainer .element .content1 p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 4rem;
+}
+
+.tutorialcontainer .element .content1 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem 15rem 0rem;
+}
+
+.tutorialcontainer .element .content1 .links div {
+  color: white;
+  font-size: 1.5rem;
+  margin: 1.3rem 6.5rem;
+  padding: 1.5rem 3.5rem;
+  border-radius: 4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tutorialcontainer .element .content2 {
+  background-color: #E7E9EB;
+  margin: 8rem 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.tutorialcontainer .element .content2 h2 {
+  margin: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.tutorialcontainer .element .content2 .img {
+  margin: 0 2.5rem;
+}
+
+.tutorialcontainer .element .content2 .tryityourself {
+  background-color: #04AA6D;
+  margin: 2.5rem;
+  width: 20rem;
+  text-align: center;
+  border-radius: 4rem;
+  padding: 1.5rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.moretutorialcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #282A35;
+}
+
+.moretutorialcontainer .bigboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.moretutorialcontainer .bigboxes .bigtemplate {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  text-align: center;
+  margin: 2.5rem 5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.moretutorialcontainer .bigboxes .bigtemplate h2 {
+  font-size: 4.5rem;
+}
+
+.moretutorialcontainer .bigboxes .bigtemplate .templatelink {
+  border-radius: 4rem;
+  width: 20rem;
+  margin: 4.8rem auto 4.8rem;
+  padding: 1.2rem;
+  background-color: #282A35;
+  color: white;
+  cursor: pointer;
+}
+
+.smallboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #282A35;
+}
+
+.smallboxes .smalltemplate {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  margin: 2rem 1.8rem;
+  height: 12rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2.8rem 0 1rem 0;
+  border-radius: 1rem;
+}
+
+.mediumboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  background-color: #282A35;
+}
+
+.mediumboxes .mediumtemplate {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 11rem;
+  margin: 2rem 5rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
   .tutorialcontainer .element .content1 .links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin: 2rem 13.5rem 0rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  html {
+    font-size: 60%;
+  }
+  .hide1 {
+    display: none;
+  }
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 12rem 0rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .hide2 {
+    display: none;
+  }
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 5rem 0rem;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 11.9rem;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .hide3 {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  html {
+    font-size: 58%;
+  }
+  .hide4 {
+    display: none;
+  }
+  .tutorialcontainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 31rem 0rem;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 9.5rem;
+  }
+  .tutorialcontainer .element .content2 {
+    margin: 0 3rem 8rem;
+  }
+  .moretutorial .bigboxes .bigtemplate {
+    -webkit-box-flex: 80%;
+        -ms-flex: 80%;
+            flex: 80%;
+  }
+  .smallboxes .smalltemplate {
+    -webkit-box-flex: 42%;
+        -ms-flex: 42%;
+            flex: 42%;
+  }
+  .mediumboxes .mediumtemplate {
+    -webkit-box-flex: 90%;
+        -ms-flex: 90%;
+            flex: 90%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 25rem 0rem;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 12.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 22.5rem 0rem;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 12rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hide5span {
+    display: none;
+  }
+  .hide5div {
+    visibility: hidden;
+  }
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 20rem 0rem;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 12rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tutorialcontainer .element .content1 h1 {
+    font-size: 7rem;
+  }
+  .tutorialcontainer .element .content1 .links {
     margin: 2rem 15rem 0rem;
   }
-  
   .tutorialcontainer .element .content1 .links div {
-    color: white;
-    font-size: 1.5rem;
-    margin: 1.3rem 6.5rem;
-    padding: 1.5rem 3.5rem;
-    border-radius: 4rem;
-    font-weight: 600;
-    cursor: pointer;
+    margin: 1.3rem 14rem;
   }
-  
-  .tutorialcontainer .element .content2 {
-    background-color: #E7E9EB;
-    margin: 8rem 2rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 740px) {
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 10rem 0rem;
   }
-  
-  .tutorialcontainer .element .content2 h2 {
-    margin: 2.5rem;
-    font-size: 2.5rem;
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 14rem;
   }
-  
-  .tutorialcontainer .element .content2 .img {
-    margin: 0 2.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 0rem 0rem;
   }
-  
-  .tutorialcontainer .element .content2 .tryityourself {
-    background-color: #04AA6D;
-    margin: 2.5rem;
-    width: 20rem;
-    text-align: center;
-    border-radius: 4rem;
-    padding: 1.5rem;
-    color: white;
-    font-weight: 600;
-    font-size: 1.5rem;
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 20rem;
   }
-  
-  .moretutorialcontainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    background-color: #282A35;
+  .tutorialcontainer .tutelement2hide {
+    display: none;
   }
-  
-  .moretutorialcontainer .bigboxes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 4rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .tutorialcontainer .element .content1 .links {
+    margin: 2rem 0rem 0rem;
   }
-  
-  .moretutorialcontainer .bigboxes .bigtemplate {
-    -webkit-box-flex: 40%;
-        -ms-flex: 40%;
-            flex: 40%;
-    text-align: center;
-    margin: 2.5rem 5rem;
-    border-radius: 1rem;
-    font-size: 2rem;
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 18rem;
   }
-  
-  .moretutorialcontainer .bigboxes .bigtemplate h2 {
-    font-size: 4.5rem;
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 50%;
   }
-  
-  .moretutorialcontainer .bigboxes .bigtemplate .templatelink {
-    border-radius: 4rem;
-    width: 20rem;
-    margin: 4.8rem auto 4.8rem;
-    padding: 1.2rem;
-    background-color: #282A35;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .smallboxes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    background-color: #282A35;
-  }
-  
-  .smallboxes .smalltemplate {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    margin: 2rem 1.8rem;
-    height: 12rem;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 2.8rem 0 1rem 0;
-    border-radius: 1rem;
-  }
-  
-  .mediumboxes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0;
-    background-color: #282A35;
-  }
-  
-  .mediumboxes .mediumtemplate {
-    -webkit-box-flex: 40%;
-        -ms-flex: 40%;
-            flex: 40%;
-    text-align: center;
-    font-size: 2.8rem;
-    line-height: 11rem;
-    margin: 2rem 5rem;
-    border-radius: 1rem;
-  }
-  
-  @media screen and (max-width: 1300px) {
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 13.5rem 0rem;
-    }
-  }
-  
-  @media screen and (max-width: 1220px) {
-    html {
-      font-size: 60%;
-    }
-    .hide1 {
-      display: none;
-    }
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 12rem 0rem;
-    }
-  }
-  
-  @media screen and (max-width: 1150px) {
-    .hide2 {
-      display: none;
-    }
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 5rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 11.9rem;
-    }
-  }
-  
-  @media screen and (max-width: 1075px) {
-    .hide3 {
-      visibility: hidden;
-    }
-  }
-  
-  @media screen and (max-width: 1050px) {
-    html {
-      font-size: 58%;
-    }
-    .hide4 {
-      display: none;
-    }
-    .tutorialcontainer {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-    }
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 31rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 9.5rem;
-    }
-    .tutorialcontainer .element .content2 {
-      margin: 0 3rem 8rem;
-    }
-    .moretutorial .bigboxes .bigtemplate {
-      -webkit-box-flex: 80%;
-          -ms-flex: 80%;
-              flex: 80%;
-    }
-    .smallboxes .smalltemplate {
-      -webkit-box-flex: 42%;
-          -ms-flex: 42%;
-              flex: 42%;
-    }
-    .mediumboxes .mediumtemplate {
-      -webkit-box-flex: 90%;
-          -ms-flex: 90%;
-              flex: 90%;
-    }
-  }
-  
-  @media screen and (max-width: 960px) {
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 25rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 12.5rem;
-    }
-  }
-  
-  @media screen and (max-width: 900px) {
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 22.5rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 12rem;
-    }
-  }
-  
-  @media screen and (max-width: 850px) {
-    .hide5span {
-      display: none;
-    }
-    .hide5div {
-      visibility: hidden;
-    }
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 20rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 12rem;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .tutorialcontainer .element .content1 h1 {
-      font-size: 7rem;
-    }
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 15rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 14rem;
-    }
-  }
-  
-  @media screen and (max-width: 740px) {
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 10rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 14rem;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 0rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 20rem;
-    }
-    .tutorialcontainer .tutelement2hide {
-      display: none;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .tutorialcontainer .element .content1 .links {
-      margin: 2rem 0rem 0rem;
-    }
-    .tutorialcontainer .element .content1 .links div {
-      margin: 1.3rem 18rem;
-    }
-  }
-  
-  @media screen and (max-width: 550px) {
-    html {
-      font-size: 50%;
-    }
-  }
-  /*# sourceMappingURL=w3scss.css.map */
+}
+/*# sourceMappingURL=w3.css.map */
