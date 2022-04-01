@@ -11,3 +11,27 @@ https://user-images.githubusercontent.com/99392080/159059614-8c3ee80f-1847-43c2-
 Preview for the w3 Home Page for small mobile devices i.e 320px
 
 ![w3_SmallMobile_320px](https://user-images.githubusercontent.com/99392080/161331108-77a772bf-375e-4cea-aa47-9aca0223c4ec.gif)
+
+
+# Medium Mobile View - 375px
+
+Preview for the w3 Home Page for medium mobile devices i.e 375px
+
+# Large Mobile View - 425px
+
+Preview for the w3 Home Page for large mobile devices i.e 425px
+
+
+# Tablet View - 768px
+
+Preview for the w3 Home Page for tablets i.e 768px
+
+
+# Laptop View - 1024px
+
+Preview for the w3 Home Page for large mobile devices i.e 1024px
+
+# Large Laptop View - 1440px
+
+Preview for the w3 Home Page for large mobile devices i.e 1440px
+
