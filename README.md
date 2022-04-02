@@ -29,6 +29,7 @@ Preview for the w3 Home Page for large mobile devices i.e 425px
 
 Preview for the w3 Home Page for tablets i.e 768px
 
+![w3_Tablet_768px](https://user-images.githubusercontent.com/99392080/161369146-41d55b22-36af-4063-8aba-0558bea65a18.gif)
 
 # Laptop View - 1024px
 
