@@ -17,7 +17,7 @@ Preview for the w3 Home Page for small mobile devices i.e 320px
 
 Preview for the w3 Home Page for medium mobile devices i.e 375px
 
-
+![w3_MediumMobile_375px](https://user-images.githubusercontent.com/99392080/161368458-7da2e23c-ec82-460d-86bf-549292e77c9f.gif)
 
 # Large Mobile View - 425px
 
