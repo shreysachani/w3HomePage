@@ -41,3 +41,4 @@ Preview for the w3 Home Page for large mobile devices i.e 1024px
 
 Preview for the w3 Home Page for large mobile devices i.e 1440px
 
+![w3_LaptopLarge_1440px](https://user-images.githubusercontent.com/99392080/161369282-d8229e65-3914-4713-99c5-0a260b813f38.gif)
