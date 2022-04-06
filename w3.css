@@ -1,17 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
   overflow-x: hidden;
   margin: 0px;
   font-weight: 500;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .navbar {
@@ -405,7 +406,7 @@ body {
 
 @media screen and (max-width: 1075px) {
   .hide3 {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -470,9 +471,6 @@ body {
   .hide5span {
     display: none;
   }
-  .hide5div {
-    visibility: hidden;
-  }
   .tutorialcontainer .element .content1 .links {
     margin: 2rem 20rem 0rem;
   }
@@ -527,11 +525,50 @@ body {
   .tutorialcontainer .element .content1 .links div {
     margin: 1.3rem 18rem;
   }
+  .hideiconrotate {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 50%;
+    font-size: 52%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .learntocode .searchbar .searcharea input {
+    padding: 1.5rem 8rem 1.5rem 3rem;
+  }
+  .learntocode .searchbar .searchicon {
+    padding: 1.5rem 3rem;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 14rem;
+  }
+  .moretutorialcontainer .bigboxes .bigtemplate {
+    margin: 1rem 3rem;
+  }
+  .smallboxes .smalltemplate {
+    margin: 1rem 3rem;
+  }
+  .mediumboxes .mediumtemplate {
+    margin: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .learntocode .searchbar .searcharea input {
+    padding: 1.5rem 1rem 1.5rem 3rem;
+  }
+  .learntocode .searchbar .searchicon {
+    padding: 1.5rem 2rem;
+  }
+  .hideiconglobeandsearch {
+    display: none;
+  }
+  .tutorialcontainer .element .content1 .links div {
+    margin: 1.3rem 8rem;
   }
 }
 /*# sourceMappingURL=w3.css.map */
